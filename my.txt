@@ -1,0 +1,5 @@
+In this paper, we propose a novel algorithm to interpolate data defined on graphs, using signal processing concepts. The interpolation of missing values from known samples appears in various applications, such as matrix/vector completion, sampling of highdimensional
+data, semi-supervised learning etc. In this paper, we formulate the data interpolation problem as a signal reconstruction problem on a graph, where a graph signal is defined as the information
+attached to each node (scalar or vector values mapped to the set of vertices/edges of the graph). We use recent results for sampling in graphs to find classes of bandlimited (BL) graph signals that can be reconstructed from their partially observed samples. The interpolated
+signal is obtained by projecting the input signal into the appropriate BL graph signal space. Additionally, we impose a ¡®bilateral¡¯weighting scheme on the links between known samples, which further improves accuracy. We use our proposed method for collaborative
+filtering in recommendation systems. Preliminary results show a very favorable trade-off between accuracy and complexity,compared to state of the art algorithms.
